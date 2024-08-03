@@ -1,0 +1,86 @@
+body {
+  
+    display: flex;
+    height: 100vh;
+    
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color:#9100FF;
+    
+}
+
+.clock, .timerDisplay {
+    font-size: 2rem;
+    margin: 0 auto;
+    color:#1C2CE0;
+    
+}
+
+.timer input {
+    margin: 5px;
+    color: darkgreen;
+    background-color: #00F8FF;
+    border-color: transparent;
+    border-radius: 5px;
+    
+}
+
+.timer button {
+    margin: 5px;
+    background-color: #FF0000;
+    border-color: transparent;
+ font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+   
+    
+}
+h1{
+  color:#6B0BFF;
+  text-align: center;
+}
+
+
+.stopwatch {
+    background: #fff;
+    padding: 20px;
+    
+    
+    text-align: center;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#startStopBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.buttons button:hover {
+    opacity: 0.9;
+}

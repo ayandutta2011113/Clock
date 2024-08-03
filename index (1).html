@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock and Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+  
+    <div class="container">
+        <div id="clock" class="clock"></div>
+        <div class="timer" 
+          <input type="number" id
+          ="hours" placeholder
+          ="Hours"><br>
+            <input type="number" id="minutes" placeholder="Minutes">
+            <input type="number" id="seconds" placeholder="Seconds"><br>
+            <button id="start">Start Timer</button>
+            <button id="stop">Stop Timer</button><br>
+            <div id="timerDisplay" class="timerDisplay">00:00:00</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+<br><br>
+    <div class="stopwatch">
+        <div id="display">00:00:00</div>
+        <div class="buttons">
+            <button id="startStopBtn" onclick="startStop()">Start</button>
+            <button id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
